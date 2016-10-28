@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top_1{
+	background-color: #F0ECEC;
+}
+
+#cont_1{
+	margin: 20px -20px;
+}
+
+#capsula{
+	margin-bottom:4px;
+}
+
+footer{
+	padding: 6px 0px 6px 0px;
+	background-color: #F0ECEC;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	font-style:italic;
+}
+
+.panel-default a:link{
+	text-decoration:none;
+	color:#000000;
+}
+
+img{
+	margin:0px;
+	width:25px;
+	height:auto;
+}
+
+.navbar-header{
+	margin-top: -8px;
+	margin-bottom:8px;
+}
+
+#collapse1 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+#collapse2 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+#collapse3 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
