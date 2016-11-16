@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget id          = "acad.inter.pressplayforlife"
+    	version     = "1.0.0" >
+
+  <name>Press play for life</name>
+  <description>Projeto acadêmico de alunos da Universidade Anhembi Morumbi - App referente a complemento de documentário.</description>
+  <author href="https://www.facebook.com/groups/278735005843562/" email="lailson1991@gmail.com"></author>
+
+  <!-- Libera acesso para qualquer página externa -->
+  <access origin="*" />
+  
+  <!-- ìcone de App --> 
+   <icon src="icon.png" width="30" height="51" />
+   
+  <!-- Tela de início de App -->
+   <splash src="abertura.png" width="320" height="480" />
+   
+</widget>
