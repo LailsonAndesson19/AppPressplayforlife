@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top_1{
+	background-color: #F0ECEC;
+}
+
+#cont_1{
+	margin: 20px -20px;
+}
+
+#capsula{
+	margin-bottom:4px;
+}
+
+footer{
+	padding: 6px 0px 6px 0px;
+	background-color: #F0ECEC;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	font-style:italic;
+}
+
+.panel-default a:link{
+	text-decoration:none;
+	color:#000000;
+}
+
+#collapse1 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+#collapse2 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+#collapse3 h5{
+	text-align:center;
+	margin-bottom:20px;
+	font-weight: 700;
+}
+
+@media screen and (min-width:250px) and (max-width:767px) {
+	.form-control{
+		width:150px !important;
+	}
+	
+	.navbar-right {
+    	float: right!important;
+    	margin-right: -15px;
+	}
+	
+	.navbar-form .form-group {
+    	display: inline-block;
+    	margin-bottom: 0px !important;
+    	vertical-align: middle;
+	}
+}

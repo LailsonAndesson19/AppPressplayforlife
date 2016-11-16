@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cont_1{
+	margin-top:25px;
+}
+
+footer{
+	margin-top:40px;
+	padding: 8px 0px 10px 0px;
+	background-color: #F0ECEC;
+	width:100%;
+	bottom:0;
+	font-style:italic;
+}
+
+.panel-default a:link{
+	text-decoration:none;
+	color:#000000;
+}
+
+#cont_1 h4, #cont_2 h4{
+	font-size:20px;
+	font-weight:600;
+}
+
+#cont_1 p{
+	margin:15px 0px;
+}
+
+#video{
+	margin-top:15px;
+}
+
+#cont_2 h5{
+	font-size:16px;
+	font-weight:600;
+	margin-top:20px;
+}
+
+#formulario{
+	height:600px;
+}
+
+@media screen and (min-width:250px) and (max-width:767px) {
+	.form-control{
+		width:150px !important;
+	}
+	
+	.navbar-right {
+    	float: right!important;
+    	margin-right: -15px;
+	}
+	
+	.navbar-form .form-group {
+    	display: inline-block;
+    	margin-bottom: 0px !important;
+    	vertical-align: middle;
+	}
+}
