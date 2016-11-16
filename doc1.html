@@ -5,7 +5,7 @@
 <title>Press play for life</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="style_doc.css" rel="stylesheet" type="text/css">
+	<link href="css/style_doc.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -13,20 +13,18 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default text-center">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">
-        <img alt="Brand" src="color.png">
-      </a>
-      <h3>Press play for life</h3>
-    </div>
-  </div>
-</nav>
+<div class="container">
+  <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+          <input type="text" class="form-control" placeholder="#cod.">
+      </div>
+      <button type="submit" class="btn btn-default"><div class="glyphicon glyphicon-search"></div></button>
+  </form>
+</div>
   
 <div class="container"> 
   <div class="row" id="cont_1">
-    <div class="col-xs-12">    
+    <div class="col-sm-12">    
       <h4>Tema documentario</h4>
       <div class="embed-responsive embed-responsive-16by9" id="video">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pFsnys1z9Zw" frameborder="0" allowfullscreen></iframe>
@@ -36,7 +34,7 @@
     </div>
    </div>
     <div class="row" id="cont_2">
-      <div class="col-xs-12">
+      <div class="col-sm-12">
         <h4>Detalhes doc.</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         
@@ -72,7 +70,7 @@
     </div>   
   </div>
    <div class="row" id="cont_3">
-    <div class="col-xs-12">  
+    <div class="col-sm-12">  
       <div class="embed-responsive embed-responsive-16by9" id="formulario">
         <iframe class="embed-responsive-item" src="formulario.html" scrolling="no" allowfullscreen></iframe>
       </div>

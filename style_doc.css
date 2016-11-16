@@ -19,17 +19,6 @@ footer{
 	color:#000000;
 }
 
-img{
-	margin:0px;
-	width:25px;
-	height:auto;
-}
-
-.navbar-header{
-	margin-top: -8px;
-	margin-bottom:8px;
-}
-
 #cont_1 h4, #cont_2 h4{
 	font-size:20px;
 	font-weight:600;
@@ -50,5 +39,22 @@ img{
 }
 
 #formulario{
-	height:500px;
+	height:600px;
+}
+
+@media screen and (min-width:250px) and (max-width:767px) {
+	.form-control{
+		width:150px !important;
+	}
+	
+	.navbar-right {
+    	float: right!important;
+    	margin-right: -15px;
+	}
+	
+	.navbar-form .form-group {
+    	display: inline-block;
+    	margin-bottom: 0px !important;
+    	vertical-align: middle;
+	}
 }
